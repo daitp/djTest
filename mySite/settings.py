@@ -76,17 +76,17 @@ WSGI_APPLICATION = 'mySite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.sqlite3',
                 # SQLite 'django.db.backends.sqlite3',
                 # MySQL (django.db.backends.mysql)
                 # PostGreSQL (django.db.backends.postgresql_psycopg2)
                 # Oracle (django.db.backends.oracle) and NoSQL DB
                 # MongoDB (django_mongodb_engine)
-        'NAME': 'db.psyTestPoll',
-        'USER': 'postgres',
-        'PASSWORD': '123456789',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'db.mySite',
+        #'USER': 'postgres',
+        #'PASSWORD': '123456789',
+        #'HOST': 'localhost',
+        #'PORT': '5432',
     }
 }
 
